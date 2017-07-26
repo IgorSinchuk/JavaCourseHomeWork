@@ -1,4 +1,4 @@
-package prog.kiev.ua.homework.module2.immutable;
+package prog.kiev.ua.homework.module2.Immutable;
 
 /**
  * Created by igorsinchuk on 7/26/17.
