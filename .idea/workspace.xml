@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/Rectangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/RectangleDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/RectangleInput.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/immutable/Line.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Line.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/immutable/Lines.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Lines.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/immutable/Point.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Point.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/immutable/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Runner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Calender/Months.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Calender/Months.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/Rectangle.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/Rectangle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/RectangleDriver.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/RectangleDriver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/RectangleInput.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/RectangleInput.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Animal/Animals.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Animal/Animals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Animal/Dog.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Animal/Dog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Animal/Puppy.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Animal/Puppy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Animal/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Animal/Runner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Lines.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Lines.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Point.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Point.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +48,7 @@
         </entry>
       </file>
       <file leaf-file-name="RectangleInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/RectangleInput.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/RectangleInput.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -55,17 +58,17 @@
         </entry>
       </file>
       <file leaf-file-name="Months.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Calender/Months.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Calender/Months.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/Rectangle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -75,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="RectangleDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/RectangleDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/RectangleDriver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -127,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/rectangles/RectangleInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/RectangleInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Calender/Months.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Calender/Months.java" />
       </list>
     </option>
   </component>
@@ -191,41 +195,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ua" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCourseHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCourseHomeWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ua" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module2" />
+              <option name="myItemId" value="homework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -625,12 +595,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501053492941</updated>
       <workItem from="1501053494669" duration="3685000" />
-      <workItem from="1501060514820" duration="266000" />
+      <workItem from="1501060514820" duration="818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3951000" />
+    <option name="totallyTimeSpent" value="4503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1917" y="23" width="1280" height="722" extended-state="0" />
@@ -703,6 +673,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#175#176#0" expanded="false" />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#226#227#0" expanded="false" />
+            <element signature="e#305#306#0" expanded="false" />
+            <element signature="e#328#329#0" expanded="false" />
+            <element signature="e#368#369#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,6 +688,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#143#144#0" expanded="false" />
+            <element signature="e#222#223#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -717,6 +699,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -724,6 +707,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#134#135#0" expanded="false" />
+            <element signature="e#212#213#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -771,7 +760,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -779,7 +768,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/RectangleDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/RectangleDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -787,7 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Rectangle/RectangleInput.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/RectangleInput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -795,10 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/Calender/Months.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Calender/Months.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding />
         </state>
       </provider>

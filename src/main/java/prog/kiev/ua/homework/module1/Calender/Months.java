@@ -1,4 +1,4 @@
-package prog.kiev.ua.module1.Calender;
+package prog.kiev.ua.homework.module1.Calender;
 
 import java.util.Scanner;
 

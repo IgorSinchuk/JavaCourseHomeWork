@@ -1,4 +1,4 @@
-package prog.kiev.ua.module1.Rectangle;
+package prog.kiev.ua.homework.module1.Rectangle;
 
 /**
  * Created by igorsinchuk on 7/20/17.
