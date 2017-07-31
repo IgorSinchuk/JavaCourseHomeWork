@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/CPU.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/CPU.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Computer.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Computer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/HDD.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/HDD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Runner.java" />
-    </list>
+    <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +16,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
@@ -30,6 +25,119 @@
                 <element signature="e#1014#1015#0" expanded="true" />
                 <element signature="e#1077#1078#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/prog.kiev.ua.homework.Module3.Hardware.Computer" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware.Computer">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>prog.kiev.ua.homework.Module3.Hardware.Computer</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-27.0" y="133.0" />
+              <SelectedNodes>
+                <node>prog.kiev.ua.homework.Module3.Hardware.Computer</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/prog.kiev.ua.homework.Module3.Hardware" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
+              <nodes>
+                <node x="295.375" y="537.0">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
+                <node x="245.0" y="66.5">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
+                <node x="368.625" y="0.0">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
+                <node x="225.375" y="213.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
+                <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
+                <node x="624.625" y="11.0">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
+                  <point x="-34.0" y="-26.0" />
+                  <point x="346.375" y="507.0" />
+                  <point x="214.875" y="507.0" />
+                  <point x="214.875" y="193.0" />
+                  <point x="260.5" y="193.0" />
+                  <point x="-15.5" y="15.0" />
+                </edge>
+                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
+                  <point x="34.0" y="-26.0" />
+                  <point x="414.375" y="507.0" />
+                  <point x="550.0" y="507.0" />
+                  <point x="550.0" y="183.0" />
+                  <point x="545.625" y="183.0" />
+                  <point x="59.0" y="81.5" />
+                </edge>
+                <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
+                  <point x="-116.25" y="-137.0" />
+                  <point x="264.125" y="183.0" />
+                  <point x="168.75" y="183.0" />
+                  <point x="56.25" y="81.5" />
+                </edge>
+                <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
+                  <point x="116.25" y="-137.0" />
+                  <point x="496.625" y="193.0" />
+                  <point x="678.625" y="193.0" />
+                  <point x="-54.0" y="70.5" />
+                </edge>
+                <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
+                  <point x="38.75" y="-137.0" />
+                  <point x="419.125" y="193.0" />
+                  <point x="427.625" y="193.0" />
+                  <point x="-59.0" y="81.5" />
+                </edge>
+                <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
+                  <point x="-38.75" y="-137.0" />
+                  <point x="341.625" y="193.0" />
+                  <point x="291.5" y="193.0" />
+                  <point x="15.5" y="15.0" />
+                </edge>
+                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.Computer">
+                  <point x="0.0" y="-26.0" />
+                  <point x="0.0" y="137.0" />
+                </edge>
+                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
+                  <point x="68.0" y="-26.0" />
+                  <point x="448.375" y="517.0" />
+                  <point x="786.625" y="517.0" />
+                  <point x="54.0" y="70.5" />
+                </edge>
+                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
+                  <point x="-68.0" y="-26.0" />
+                  <point x="312.375" y="517.0" />
+                  <point x="56.25" y="517.0" />
+                  <point x="-56.25" y="81.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="593.5" y="225.5" />
+              <SelectedNodes>
+                <node>prog.kiev.ua.homework.Module3.Hardware.Runner</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -166,10 +274,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="964" />
-    <option name="y" value="23" />
-    <option name="width" value="951" />
-    <option name="height" value="1012" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -333,6 +439,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -792,15 +900,15 @@
       <workItem from="1501255154079" duration="3635000" />
       <workItem from="1501343855202" duration="7571000" />
       <workItem from="1501429782802" duration="7832000" />
-      <workItem from="1501490042570" duration="1513000" />
+      <workItem from="1501490042570" duration="2113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33690000" />
+    <option name="totallyTimeSpent" value="34290000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="964" y="23" width="951" height="1012" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -813,12 +921,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2980198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3069307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1485623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -898,13 +1006,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Rectangle/RectangleDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Line.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1117,33 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
-          <nodes>
-            <node x="" y="">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
-            <node x="" y="">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
-            <node x="" y="">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
-            <node x="" y="">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
-            <node x="" y="">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
-            <node x="" y="">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="109.0" y="270.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Constructors</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/RAM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1194,6 +1268,115 @@
             <element signature="e#1014#1015#0" expanded="true" />
             <element signature="e#1077#1078#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware.Computer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>prog.kiev.ua.homework.Module3.Hardware.Computer</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-27.0" y="133.0" />
+          <SelectedNodes>
+            <node>prog.kiev.ua.homework.Module3.Hardware.Computer</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
+          <nodes>
+            <node x="295.375" y="537.0">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
+            <node x="245.0" y="66.5">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
+            <node x="368.625" y="0.0">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
+            <node x="225.375" y="213.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
+            <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
+            <node x="624.625" y="11.0">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
+              <point x="-34.0" y="-26.0" />
+              <point x="346.375" y="507.0" />
+              <point x="214.875" y="507.0" />
+              <point x="214.875" y="193.0" />
+              <point x="260.5" y="193.0" />
+              <point x="-15.5" y="15.0" />
+            </edge>
+            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
+              <point x="34.0" y="-26.0" />
+              <point x="414.375" y="507.0" />
+              <point x="550.0" y="507.0" />
+              <point x="550.0" y="183.0" />
+              <point x="545.625" y="183.0" />
+              <point x="59.0" y="81.5" />
+            </edge>
+            <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
+              <point x="-116.25" y="-137.0" />
+              <point x="264.125" y="183.0" />
+              <point x="168.75" y="183.0" />
+              <point x="56.25" y="81.5" />
+            </edge>
+            <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
+              <point x="116.25" y="-137.0" />
+              <point x="496.625" y="193.0" />
+              <point x="678.625" y="193.0" />
+              <point x="-54.0" y="70.5" />
+            </edge>
+            <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
+              <point x="38.75" y="-137.0" />
+              <point x="419.125" y="193.0" />
+              <point x="427.625" y="193.0" />
+              <point x="-59.0" y="81.5" />
+            </edge>
+            <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
+              <point x="-38.75" y="-137.0" />
+              <point x="341.625" y="193.0" />
+              <point x="291.5" y="193.0" />
+              <point x="15.5" y="15.0" />
+            </edge>
+            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.Computer">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="137.0" />
+            </edge>
+            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
+              <point x="68.0" y="-26.0" />
+              <point x="448.375" y="517.0" />
+              <point x="786.625" y="517.0" />
+              <point x="54.0" y="70.5" />
+            </edge>
+            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
+              <point x="-68.0" y="-26.0" />
+              <point x="312.375" y="517.0" />
+              <point x="56.25" y="517.0" />
+              <point x="-56.25" y="81.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="593.5" y="225.5" />
+          <SelectedNodes>
+            <node>prog.kiev.ua.homework.Module3.Hardware.Runner</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
+  <nodes>
+    <node x="295.375" y="537.0">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
+    <node x="245.0" y="66.5">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
+    <node x="368.625" y="0.0">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
+    <node x="225.375" y="213.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
+    <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
+    <node x="624.625" y="11.0">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
+      <point x="-34.0" y="-26.0" />
+      <point x="346.375" y="507.0" />
+      <point x="214.875" y="507.0" />
+      <point x="214.875" y="193.0" />
+      <point x="260.5" y="193.0" />
+      <point x="-15.5" y="15.0" />
+    </edge>
+    <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
+      <point x="34.0" y="-26.0" />
+      <point x="414.375" y="507.0" />
+      <point x="550.0" y="507.0" />
+      <point x="550.0" y="183.0" />
+      <point x="545.625" y="183.0" />
+      <point x="59.0" y="81.5" />
+    </edge>
+    <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
+      <point x="-116.25" y="-137.0" />
+      <point x="264.125" y="183.0" />
+      <point x="168.75" y="183.0" />
+      <point x="56.25" y="81.5" />
+    </edge>
+    <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
+      <point x="116.25" y="-137.0" />
+      <point x="496.625" y="193.0" />
+      <point x="678.625" y="193.0" />
+      <point x="-54.0" y="70.5" />
+    </edge>
+    <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
+      <point x="38.75" y="-137.0" />
+      <point x="419.125" y="193.0" />
+      <point x="427.625" y="193.0" />
+      <point x="-59.0" y="81.5" />
+    </edge>
+    <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
+      <point x="-38.75" y="-137.0" />
+      <point x="341.625" y="193.0" />
+      <point x="291.5" y="193.0" />
+      <point x="15.5" y="15.0" />
+    </edge>
+    <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.Computer">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="137.0" />
+    </edge>
+    <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
+      <point x="68.0" y="-26.0" />
+      <point x="448.375" y="517.0" />
+      <point x="786.625" y="517.0" />
+      <point x="54.0" y="70.5" />
+    </edge>
+    <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
+      <point x="-68.0" y="-26.0" />
+      <point x="312.375" y="517.0" />
+      <point x="56.25" y="517.0" />
+      <point x="-56.25" y="81.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="593.5" y="225.5" />
+  <SelectedNodes>
+    <node>prog.kiev.ua.homework.Module3.Hardware.Runner</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
