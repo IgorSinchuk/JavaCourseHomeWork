@@ -20,10 +20,12 @@ public class Computer {
 
     public void powerOn() {
         this.cpu.setPower(true);
+        System.out.println("On");
     }
 
     public void powerOff() {
         this.cpu.setPower(false);
+        System.out.println("off");
     }
 
     public int virusCheck() {
@@ -35,10 +37,13 @@ public class Computer {
     }
 
     public void printToConsole() {
+        System.out.println("CPU: " + this.cpu.getFrequency() + "mHz");
+        System.out.println("RAM: " + this.ram.getTotalValue() + "mb");
         System.out.println("HDD: " + this.hdd.getCapacity() + "mb");
+
     }
 
     public boolean computerIsOn() {
-        return this.cpu.isPower();
+        return this.cpu.isPower() && this.cpu.isPower();
     }
 }

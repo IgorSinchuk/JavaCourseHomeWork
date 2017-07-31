@@ -16,13 +16,15 @@ public class Runner {
         Computer computer = new Computer(hdd, odd, ram, cpu);
         System.out.println(computer.computerIsOn());
         computer.powerOn();
-        System.out.println(computer.computerIsOn());
-        System.out.println("Virus: " + computer.virusCheck() + "value");
+        System.out.println("Virus has been detected: " + computer.virusCheck() + " threat");
         computer.virusRemove();
-        System.out.println("Virus: " + computer.virusCheck() + "value");
+        System.out.println("Virus has been removed: " + computer.virusCheck() + " ");
         computer.printToConsole();
+        System.out.println(computer.computerIsOn());
+        computer.powerOff();
 
-        }
+
+    }
 
 
     }

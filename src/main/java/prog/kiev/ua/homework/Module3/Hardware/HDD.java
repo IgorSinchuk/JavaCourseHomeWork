@@ -6,6 +6,7 @@ package prog.kiev.ua.homework.Module3.Hardware;
 public class HDD {
     private int capacity = 128;
     private int checkVirus = 1;
+    private String totalSize;
 
     public int getCapacity() {
         return this.capacity;
