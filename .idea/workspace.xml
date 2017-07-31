@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="" />
+    <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/Runner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRides.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRides.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,213 +19,58 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Computer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Computer.java">
+      <file leaf-file-name="FamilyRate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/FamilyRate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/prog.kiev.ua.homework.Module3.Hardware.Computer" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware.Computer">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>prog.kiev.ua.homework.Module3.Hardware.Computer</OriginalElement>
-              <nodes>
-                <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="-27.0" y="133.0" />
-              <SelectedNodes>
-                <node>prog.kiev.ua.homework.Module3.Hardware.Computer</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/prog.kiev.ua.homework.Module3.Hardware" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
-              <nodes>
-                <node x="295.375" y="537.0">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
-                <node x="245.0" y="66.5">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
-                <node x="368.625" y="0.0">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
-                <node x="225.375" y="213.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
-                <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
-                <node x="624.625" y="11.0">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
-                  <point x="-34.0" y="-26.0" />
-                  <point x="346.375" y="507.0" />
-                  <point x="214.875" y="507.0" />
-                  <point x="214.875" y="193.0" />
-                  <point x="260.5" y="193.0" />
-                  <point x="-15.5" y="15.0" />
-                </edge>
-                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
-                  <point x="34.0" y="-26.0" />
-                  <point x="414.375" y="507.0" />
-                  <point x="550.0" y="507.0" />
-                  <point x="550.0" y="183.0" />
-                  <point x="545.625" y="183.0" />
-                  <point x="59.0" y="81.5" />
-                </edge>
-                <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
-                  <point x="-116.25" y="-137.0" />
-                  <point x="264.125" y="183.0" />
-                  <point x="168.75" y="183.0" />
-                  <point x="56.25" y="81.5" />
-                </edge>
-                <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
-                  <point x="116.25" y="-137.0" />
-                  <point x="496.625" y="193.0" />
-                  <point x="678.625" y="193.0" />
-                  <point x="-54.0" y="70.5" />
-                </edge>
-                <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
-                  <point x="38.75" y="-137.0" />
-                  <point x="419.125" y="193.0" />
-                  <point x="427.625" y="193.0" />
-                  <point x="-59.0" y="81.5" />
-                </edge>
-                <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
-                  <point x="-38.75" y="-137.0" />
-                  <point x="341.625" y="193.0" />
-                  <point x="291.5" y="193.0" />
-                  <point x="15.5" y="15.0" />
-                </edge>
-                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.Computer">
-                  <point x="0.0" y="-26.0" />
-                  <point x="0.0" y="137.0" />
-                </edge>
-                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
-                  <point x="68.0" y="-26.0" />
-                  <point x="448.375" y="517.0" />
-                  <point x="786.625" y="517.0" />
-                  <point x="54.0" y="70.5" />
-                </edge>
-                <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
-                  <point x="-68.0" y="-26.0" />
-                  <point x="312.375" y="517.0" />
-                  <point x="56.25" y="517.0" />
-                  <point x="-56.25" y="81.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="34.0" y="-12.0" />
-              <SelectedNodes>
-                <node>prog.kiev.ua.homework.Module3.Hardware.Runner</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hardware.uml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Hardware.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
-              <nodes>
-                <node x="295.375" y="537.0">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
-                <node x="245.0" y="66.5">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
-                <node x="368.625" y="0.0">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
-                <node x="225.375" y="213.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
-                <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
-                <node x="624.625" y="11.0">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="34.5" y="-11.5" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diagram.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/diagram.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Runner.java">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CPU.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/CPU.java">
+      <file leaf-file-name="TaxiRides.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRides.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaxiRate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-              </folding>
+              <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HDD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/HDD.java">
+      <file leaf-file-name="TaxiRide.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRide.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RAM.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/RAM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="466">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -293,13 +141,13 @@
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRate.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/FamilyRate.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/StandardRate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRides.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/RAM.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/HDD.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/CPU.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Computer.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRides.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/Runner.java" />
       </list>
     </option>
   </component>
@@ -310,8 +158,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="964" />
+    <option name="y" value="23" />
+    <option name="width" value="951" />
+    <option name="height" value="1012" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -401,7 +251,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Hardware" />
+              <option name="myItemId" value="TaxiHW" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -475,7 +325,6 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="FullScreen" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware" />
   </component>
   <component name="RecentsManager">
@@ -489,7 +338,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/prog/kiev/ua/module1/rectangle" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner (1)">
+  <component name="RunManager" selected="Application.Runner">
     <configuration default="false" name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -908,8 +757,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Runner (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Runner" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Runner (1)" />
         <item index="2" class="java.lang.String" itemvalue="Application.Runner (2)" />
         <item index="3" class="java.lang.String" itemvalue="Application.Main" />
         <item index="4" class="java.lang.String" itemvalue="Application.ComputerApp (1)" />
@@ -936,15 +785,15 @@
       <workItem from="1501255154079" duration="3635000" />
       <workItem from="1501343855202" duration="7571000" />
       <workItem from="1501429782802" duration="7832000" />
-      <workItem from="1501490042570" duration="2222000" />
+      <workItem from="1501490042570" duration="3587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34399000" />
+    <option name="totallyTimeSpent" value="35764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="964" y="23" width="951" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -957,12 +806,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2980198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29782608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1485623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3069307" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1159,6 +1008,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#280#281#0" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,88 +1053,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRides.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
           <folding>
-            <element signature="e#955#956#0" expanded="false" />
-            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#188#189#0" expanded="false" />
+            <element signature="e#267#268#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/FamilyRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/RAM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/HDD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/CPU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1432,6 +1210,95 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/diagram.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/CPU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/HDD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/RAM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRides.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/FamilyRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

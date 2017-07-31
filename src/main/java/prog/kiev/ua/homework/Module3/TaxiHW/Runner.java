@@ -8,13 +8,17 @@ public class Runner {
     public static void main(String[] args) {
 
         TaxiRate rate = new StandardRate();
-        TaxiRate rate1 = new FamilyRate();
+
         TaxiRide taxiRide1 = new TaxiRide(1 , 2 , 3,rate);
-        TaxiRide taxiRide2 = new TaxiRide(4 , 5 , 6,rate);
-        TaxiRide taxiRide3 = new TaxiRide(7 , 8 , 9,rate);
 
-//        TaxiRide rides = new TaxiRides();
-//        rides.
+        TaxiRides taxiRides = new TaxiRides();
+        taxiRides.add(taxiRide1);
 
+
+        StandardRate standardRate = new StandardRate();
+        FamilyRate familyRate = new FamilyRate();
+
+        System.out.println(taxiRides.getPrice(new StandardRate()));
+        System.out.println(taxiRides.getPrice(new FamilyRate()));
     }
 }
