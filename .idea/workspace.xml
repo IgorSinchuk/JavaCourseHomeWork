@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/prog.kiev.ua.homework.Module3.Hardware" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JAVA/prog.kiev.ua.homework.Module3.Hardware" pinned="false" current-in-tab="false">
         <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
@@ -127,7 +127,7 @@
                   <point x="-56.25" y="81.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="593.5" y="225.5" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="34.0" y="-12.0" />
               <SelectedNodes>
                 <node>prog.kiev.ua.homework.Module3.Hardware.Runner</node>
               </SelectedNodes>
@@ -139,6 +139,42 @@
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hardware.uml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Hardware.uml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
+              <nodes>
+                <node x="295.375" y="537.0">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
+                <node x="245.0" y="66.5">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
+                <node x="368.625" y="0.0">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
+                <node x="225.375" y="213.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
+                <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
+                <node x="624.625" y="11.0">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="34.5" y="-11.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diagram.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/diagram.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -900,12 +936,12 @@
       <workItem from="1501255154079" duration="3635000" />
       <workItem from="1501343855202" duration="7571000" />
       <workItem from="1501429782802" duration="7832000" />
-      <workItem from="1501490042570" duration="2113000" />
+      <workItem from="1501490042570" duration="2222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34290000" />
+    <option name="totallyTimeSpent" value="34399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -1006,20 +1042,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Line.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="63" lean-forward="false" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Animals/BooksInfo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module2/Immutable/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1366,7 +1388,7 @@
               <point x="-56.25" y="81.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="593.5" y="225.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="34.0" y="-12.0" />
           <SelectedNodes>
             <node>prog.kiev.ua.homework.Module3.Hardware.Runner</node>
           </SelectedNodes>
@@ -1378,6 +1400,38 @@
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Hardware.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
+          <nodes>
+            <node x="295.375" y="537.0">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
+            <node x="245.0" y="66.5">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
+            <node x="368.625" y="0.0">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
+            <node x="225.375" y="213.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
+            <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
+            <node x="624.625" y="11.0">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="34.5" y="-11.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/diagram.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
