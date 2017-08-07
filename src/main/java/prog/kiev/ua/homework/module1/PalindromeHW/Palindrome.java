@@ -1,4 +1,4 @@
-package prog.kiev.ua.homework.module1.PalindromeExample;
+package prog.kiev.ua.homework.module1.PalindromeHW;
 
 import java.util.Scanner;
 
