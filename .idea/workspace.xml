@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/Module4/demo/Directory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/Module4/demo/File.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/Module4/demo/Runner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/module1/PalindromeExample/Palindrome.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/Module4/FileSystem/Directory.class" afterPath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/Module4/FileSystem/Directory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/Module4/FileSystem/File.class" afterPath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/Module4/FileSystem/File.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/Module4/FileSystem/Runner.class" afterPath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/Module4/FileSystem/Runner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Cinema.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Customer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Row.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Seat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Show.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Theatre.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTask/CruiseCSVEnum.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTask/CruiseCSVEnum.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,57 +24,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TrainTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module5/TraineHW/TrainTask.java">
+      <file leaf-file-name="Booking.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Booking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="750">
+              <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarriageCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module5/TraineHW/CarriageCounter.java">
+      <file leaf-file-name="Show.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Show.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CruiseCSVEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTask/CruiseCSVEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Train.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module5/TraineHW/Train.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="585">
+              <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+              <folding>
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,13 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TextHW/Runner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/Immutable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/module1/PointsHM/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/FamilyTariff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/StandardTariff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiTarrif.java" />
-        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRide.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRate.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/FamilyRate.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/StandardRate.java" />
@@ -154,6 +121,13 @@
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module5/TraineHW/Runner.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTask/CruiseCSVEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module5/TraineHW/CarriageCounter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Seat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Row.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Theatre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/CinemaBooking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Cinema.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Show.java" />
+        <option value="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Booking.java" />
       </list>
     </option>
   </component>
@@ -281,6 +255,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Module3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCourseHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCourseHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinalTaskCinema" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -832,12 +836,12 @@
       <workItem from="1501665262737" duration="5971000" />
       <workItem from="1502026446016" duration="597000" />
       <workItem from="1502102950081" duration="5440000" />
-      <workItem from="1502270824077" duration="3451000" />
+      <workItem from="1502270824077" duration="6738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53044000" />
+    <option name="totallyTimeSpent" value="56331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="946" y="23" width="970" height="1012" extended-state="0" />
@@ -938,175 +942,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware.Computer">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>prog.kiev.ua.homework.Module3.Hardware.Computer</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-27.0" y="133.0" />
-          <SelectedNodes>
-            <node>prog.kiev.ua.homework.Module3.Hardware.Computer</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/prog.kiev.ua.homework.Module3.Hardware">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
-          <nodes>
-            <node x="295.375" y="537.0">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
-            <node x="245.0" y="66.5">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
-            <node x="368.625" y="0.0">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
-            <node x="225.375" y="213.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
-            <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
-            <node x="624.625" y="11.0">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
-              <point x="-34.0" y="-26.0" />
-              <point x="346.375" y="507.0" />
-              <point x="214.875" y="507.0" />
-              <point x="214.875" y="193.0" />
-              <point x="260.5" y="193.0" />
-              <point x="-15.5" y="15.0" />
-            </edge>
-            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
-              <point x="34.0" y="-26.0" />
-              <point x="414.375" y="507.0" />
-              <point x="550.0" y="507.0" />
-              <point x="550.0" y="183.0" />
-              <point x="545.625" y="183.0" />
-              <point x="59.0" y="81.5" />
-            </edge>
-            <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
-              <point x="-116.25" y="-137.0" />
-              <point x="264.125" y="183.0" />
-              <point x="168.75" y="183.0" />
-              <point x="56.25" y="81.5" />
-            </edge>
-            <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
-              <point x="116.25" y="-137.0" />
-              <point x="496.625" y="193.0" />
-              <point x="678.625" y="193.0" />
-              <point x="-54.0" y="70.5" />
-            </edge>
-            <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.RAM">
-              <point x="38.75" y="-137.0" />
-              <point x="419.125" y="193.0" />
-              <point x="427.625" y="193.0" />
-              <point x="-59.0" y="81.5" />
-            </edge>
-            <edge source="prog.kiev.ua.homework.Module3.Hardware.Computer" target="prog.kiev.ua.homework.Module3.Hardware.ODD">
-              <point x="-38.75" y="-137.0" />
-              <point x="341.625" y="193.0" />
-              <point x="291.5" y="193.0" />
-              <point x="15.5" y="15.0" />
-            </edge>
-            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.Computer">
-              <point x="0.0" y="-26.0" />
-              <point x="0.0" y="137.0" />
-            </edge>
-            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.CPU">
-              <point x="68.0" y="-26.0" />
-              <point x="448.375" y="517.0" />
-              <point x="786.625" y="517.0" />
-              <point x="54.0" y="70.5" />
-            </edge>
-            <edge source="prog.kiev.ua.homework.Module3.Hardware.Runner" target="prog.kiev.ua.homework.Module3.Hardware.HDD">
-              <point x="-68.0" y="-26.0" />
-              <point x="312.375" y="517.0" />
-              <point x="56.25" y="517.0" />
-              <point x="-56.25" y="81.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="34.0" y="-12.0" />
-          <SelectedNodes>
-            <node>prog.kiev.ua.homework.Module3.Hardware.Runner</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Hardware.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>prog.kiev.ua.homework.Module3.Hardware</OriginalElement>
-          <nodes>
-            <node x="295.375" y="537.0">prog.kiev.ua.homework.Module3.Hardware.Runner</node>
-            <node x="245.0" y="66.5">prog.kiev.ua.homework.Module3.Hardware.ODD</node>
-            <node x="368.625" y="0.0">prog.kiev.ua.homework.Module3.Hardware.RAM</node>
-            <node x="225.375" y="213.0">prog.kiev.ua.homework.Module3.Hardware.Computer</node>
-            <node x="0.0" y="0.0">prog.kiev.ua.homework.Module3.Hardware.HDD</node>
-            <node x="624.625" y="11.0">prog.kiev.ua.homework.Module3.Hardware.CPU</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="35.0" y="-11.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/diagram.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/CPU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/HDD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/Hardware/RAM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module3/TaxiHW/TaxiRide.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
@@ -1169,6 +1004,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,6 +1072,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,6 +1268,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module5/TraineHW/Train.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module5/TraineHW/CarriageCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1462,11 +1315,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module5/TraineHW/Train.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Seat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="480">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Row.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/prog.kiev.ua.homework.FinalTaskCinema">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>prog.kiev.ua.homework.FinalTaskCinema</OriginalElement>
+          <nodes>
+            <node x="" y="">prog.kiev.ua.homework.FinalTaskCinema.Seat</node>
+            <node x="" y="">prog.kiev.ua.homework.FinalTaskCinema.Booking</node>
+            <node x="" y="">prog.kiev.ua.homework.FinalTaskCinema.Show</node>
+            <node x="" y="">prog.kiev.ua.homework.FinalTaskCinema.Theatre</node>
+            <node x="" y="">prog.kiev.ua.homework.FinalTaskCinema.Row</node>
+            <node x="" y="">prog.kiev.ua.homework.FinalTaskCinema.Customer</node>
+            <node x="" y="">prog.kiev.ua.homework.FinalTaskCinema.Cinema</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="112.0" y="127.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Cinema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#231#0" expanded="true" />
+            <element signature="e#282#291#0" expanded="true" />
+            <element signature="e#342#351#0" expanded="true" />
+            <element signature="e#404#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Theatre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="35" lean-forward="false" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Show.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
