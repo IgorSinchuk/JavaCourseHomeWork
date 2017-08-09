@@ -5,19 +5,19 @@ package prog.kiev.ua.homework.FinalTask;
  */
 public enum CruiseCSVEnum {
 
-    CRUISE_NUMBER,
-    DESTINATION,
-    PRICE_PER_CABIN,
-    NUMBER_OF_CABINS;
-
-    private final int index;
-
-
-    CruiseCSVEnum(final int index) {
-        this.index = index;
-    }
-
-    public int getIndex() {
-        return index;
-    }
+////    CRUISE_NUMBER,
+////    DESTINATION,
+////    PRICE_PER_CABIN,
+////    NUMBER_OF_CABINS;
+//
+//    private final int index;
+//
+//
+//    CruiseCSVEnum(final int index) {
+//        this.index = index;
+//    }
+//
+//    public int getIndex() {
+//        return index;
+//    }
 }
