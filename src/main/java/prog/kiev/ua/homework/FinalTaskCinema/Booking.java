@@ -32,7 +32,7 @@ public class Booking {
         this.seatNumber = seatNumber;
     }
 
-    public boolean reserveSeat(int selectedRow, int selectedSeat) {
+    public boolean reservedSeat(int selectedRow, int selectedSeat) {
         if (show.getTheatre().getRows().get(selectedRow).getSeats().get(selectedSeat).getReservationStatus()) {
             return false;
         } else {
