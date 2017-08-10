@@ -15,4 +15,7 @@ public class Cinema {
     ArrayList<Customer> customers = new ArrayList<Customer>();
     Scanner select = new Scanner(System.in);
     Scanner choice = new Scanner(System.in);
+
+    Theatre testTheatre = new Theatre(1, "Main Theatre");
+    testTheatre.createRows(1, 10, 7);
 }

@@ -9,14 +9,25 @@ public class Show {
 
     private String showName;
     private String showDate;
-    private String theatre;
+    private Theatre theatre;
     private ArrayList<Seat> seats;
     private int freeSeats;
 
-    public Show(String showName, String showDate, String theatre) {
+    public Show(String showName, String showDate, Theatre theatre) {
         this.showName = showName;
         this.showDate = showDate;
         this.theatre = theatre;
+    }
+
+    public void loadSeats()
+    {
+        for (Row row : theatre.getRows())
+        {
+            for (Seat seat : row.getSeats())
+            {
+                seats.add(seat);
+            }
+        }
     }
 
     public int getFreeSeatsCount() {

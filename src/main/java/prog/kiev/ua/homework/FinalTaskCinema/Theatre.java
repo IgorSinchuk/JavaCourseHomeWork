@@ -36,7 +36,48 @@ public class Theatre {
     }
 
     public void printSeatPlan() {
+        System.out.println();
+        int maxSeatsInRow = 0;
+        for (Row row : getRows()) {
+            if (row.getSeats().size() > maxSeatsInRow) {
+                maxSeatsInRow = row.getSeats().size();
+            }
+        }
 
+        System.out.println( "   |");
+        for (int i = 1; i <= maxSeatsInRow; i++) {
+            System.out.println(" " + 1);
+        }
+
+        System.out.println("\n");
+        System.out.println("----");
+        for (int i = 1; i <= maxSeatsInRow; i++) {
+            if (i > 9) {
+                System.out.println("---");
+            } else {
+                System.out.println("--");
+            }
+        }
+
+        System.out.println("\n");
+        for (Row row : getRows()) {
+            if (row.getRowNumber() > 9) {
+                System.out.println(row.getRowNumber() + " | ");
+            } else {
+                System.out.println(row.getSeats() + "  | ");
+            }
+            for (Seat seat : row.getSeats()) {
+                if (seat.getReservationStatus()) {
+                    System.out.println("X ");
+                } else {
+                    System.out.println(seat.getSeatNumber() + " ");
+                }
+            }
+
+            System.out.println("\n");
+        }
+        System.out.println("\n");
     }
+
 
 }
