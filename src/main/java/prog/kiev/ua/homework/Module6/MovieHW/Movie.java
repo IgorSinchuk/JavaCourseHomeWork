@@ -1,4 +1,4 @@
-package prog.kiev.ua.homework.Module6;
+package prog.kiev.ua.homework.Module6.MovieHW;
 
 import java.util.ArrayList;
 import java.util.List;
