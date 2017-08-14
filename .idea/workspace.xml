@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinemaV2/Booking.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinemaV2/Cast.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinemaV2/Cinema.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinemaV2/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinemaV2/Row.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinemaV2/Seat.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/FinalTaskCinema/Cinema.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Cinema.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/CinemaRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/FinalTaskCinema/Customer.class" afterPath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/FinalTaskCinema/Customer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/FinalTaskCinema/Show.class" afterPath="$PROJECT_DIR$/out/production/JavaCourseHomeWork/prog/kiev/ua/homework/FinalTaskCinema/Show.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Show.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/FinalTaskCinema/Show.java" />
-    </list>
+    <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -914,12 +900,12 @@
       <workItem from="1502443604333" duration="6330000" />
       <workItem from="1502532571512" duration="3981000" />
       <workItem from="1502707079269" duration="5212000" />
-      <workItem from="1502715931314" duration="1677000" />
+      <workItem from="1502715931314" duration="1754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77991000" />
+    <option name="totallyTimeSpent" value="78068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="941" y="23" width="977" height="1012" extended-state="0" />
