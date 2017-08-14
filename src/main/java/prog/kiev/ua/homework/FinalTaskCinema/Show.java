@@ -1,6 +1,7 @@
 package prog.kiev.ua.homework.FinalTaskCinema;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by igor on 8/9/17.
@@ -10,8 +11,9 @@ public class Show {
     private String showName;
     private String showDate;
     private Theatre theatre;
-    private ArrayList<Seat> seats;
-    private int freeSeats;
+//    private List<Cast>
+//    private ArrayList<Seat> seats;
+//    private int freeSeats;
 
     public Show(String showName, String showDate, Theatre theatre) {
         this.showName = showName;
@@ -19,33 +21,33 @@ public class Show {
         this.theatre = theatre;
     }
 
-    public void loadSeats()
-    {
-        for (Row row : theatre.getRows())
-        {
-            for (Seat seat : row.getSeats())
-            {
-                seats.add(seat);
-            }
-        }
-    }
+//    public void loadSeats()
+//    {
+//        for (Row row : theatre.getRows())
+//        {
+//            for (Seat seat : row.getSeats())
+//            {
+//                seats.add(seat);
+//            }
+//        }
+//    }
+//
+//    public int getFreeSeatsCount() {
+//        for (Seat seat : seats) {
+//            if (!seat.getReservationStatus()) {
+//                freeSeats++;
+//            }
+//        }
+//        return freeSeats;
+//    }
 
-    public int getFreeSeatsCount() {
-        for (Seat seat : seats) {
-            if (!seat.getReservationStatus()) {
-                freeSeats++;
-            }
-        }
-        return freeSeats;
-    }
-
-    public void setShow(String showName) {
-        this.showName = showName;
-    }
-
-    public void setShowDate(String showDate) {
-        this.showDate = showDate;
-    }
+//    public void setShow(String showName) {
+//        this.showName = showName;
+//    }
+//
+//    public void setShowDate(String showDate) {
+//        this.showDate = showDate;
+//    }
 
     public String getShowName() {
         return showName;
@@ -59,8 +61,8 @@ public class Show {
         return theatre;
     }
 
-    public ArrayList<Seat> getSeats() {
-        return seats;
-    }
+//    public ArrayList<Seat> getSeats() {
+//        return seats;
+//    }
 
 }

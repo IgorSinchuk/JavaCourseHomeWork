@@ -8,10 +8,7 @@ public class Customer {
     int id;
     String firstName;
     String secondName;
-    String street;
-    int streetNumber;
-    int plz;
-    String city;
+
 
 
     public Customer(int id) {
@@ -31,27 +28,8 @@ public class Customer {
         this.secondName = secondName;
     }
 
-    public void setStreet(String street) {
-        this.street = street;
-    }
-
-    public void setStreetNumber(int streetNumber) {
-        this.streetNumber = streetNumber;
-    }
-
-    public void setPLZ(int plz) {
-        this.plz = plz;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-
     public void printCustomer() {
         System.out.println(secondName + " " + firstName);
-        System.out.println(street + " " + streetNumber);
-        System.out.println(plz + " " + city);
     }
 
 
