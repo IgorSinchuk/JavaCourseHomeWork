@@ -7,6 +7,20 @@ import java.util.ArrayList;
  */
 public class Cinema {
 
-    private int rowCount;
     private ArrayList<Row> rows;
+
+    public void createRows(ArrayList<Row> rows) {
+        this.rows.addAll(rows);
+
+    }
+
+    public void printSeatPlan() {
+        System.out.println();
+        int maxSeatsInRow = 0;
+        for (Row row : rows) {
+            if (row.getSeats().size() > maxSeatsInRow) {
+                maxSeatsInRow = row.getSeats().size();
+            }
+        }
+    }
 }
