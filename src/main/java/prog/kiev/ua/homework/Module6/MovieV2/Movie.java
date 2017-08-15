@@ -1,8 +1,5 @@
 package prog.kiev.ua.homework.Module6.MovieV2;
 
-import prog.kiev.ua.homework.FinalCinema.Seance;
-import prog.kiev.ua.homework.Module6.MovieHW.Cast;
-
 import java.util.ArrayList;
 import java.util.List;
 

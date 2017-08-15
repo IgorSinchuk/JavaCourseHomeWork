@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="" />
+    <list default="true" id="db74df30-14e9-4ab3-bf86-e912ee05b31c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module6/MovieV2/Movie.java" afterPath="$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module6/MovieV2/Movie.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,8 +105,8 @@
       <file leaf-file-name="Movie.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module6/MovieV2/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -972,12 +974,12 @@
       <workItem from="1502532571512" duration="3981000" />
       <workItem from="1502707079269" duration="5212000" />
       <workItem from="1502715931314" duration="2396000" />
-      <workItem from="1502796965369" duration="7331000" />
+      <workItem from="1502796965369" duration="7366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86041000" />
+    <option name="totallyTimeSpent" value="86076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1591,8 +1593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/prog/kiev/ua/homework/Module6/MovieV2/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
