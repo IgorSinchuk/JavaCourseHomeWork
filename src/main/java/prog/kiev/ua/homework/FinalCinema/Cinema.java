@@ -8,10 +8,10 @@ import java.util.ArrayList;
 public class Cinema {
 
     private ArrayList<Row> rows;
+    private ArrayList<Seance> seances;
 
     public void createRows(ArrayList<Row> rows) {
         this.rows.addAll(rows);
-
     }
 
     public void printSeatPlan() {

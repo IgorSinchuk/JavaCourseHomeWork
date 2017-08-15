@@ -17,9 +17,9 @@ public class Booking {
         this.seatNumber = seatNumber;
     }
 
-    public boolean reservedSeat(int selectedRow, int selectedSeat) {
-        if (cinema.getCinema().getRows().get(rowNumber).getSeats() == 1) {
-
-        }
-    }
+//    public boolean reservedSeat(int selectedRow, int selectedSeat) {
+//        if (cinema.getCinema().getRows().get(rowNumber).getSeats() == 1) {
+//
+//        }
+//    }
 }

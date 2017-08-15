@@ -1,5 +1,6 @@
 package prog.kiev.ua.homework.Module6.MovieV2;
 
+import prog.kiev.ua.homework.FinalCinema.Seance;
 import prog.kiev.ua.homework.Module6.MovieHW.Cast;
 
 import java.util.ArrayList;
@@ -14,6 +15,7 @@ public class Movie {
     private long releaseDate;
     private List<String> castList = new ArrayList<>();
     private List<Genre> genres = new ArrayList<>();
+
 
     public Movie(String name, long releaseDate) {
         this.name = name;

@@ -1,11 +1,15 @@
 package prog.kiev.ua.homework.FinalCinema;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by igor on 8/15/17.
  */
 public class Seat {
     int seatNumber;
     boolean isReserved;
+    private List<ReservationStatus> reservationStatusList = new ArrayList<>();
 
     public Seat(int seatNumber,boolean isReserved) {
         this.seatNumber = seatNumber;

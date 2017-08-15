@@ -40,7 +40,7 @@ public class Row {
 
     public void createSeats( int seatCount) {
         for (int i = 0; i <= seatCount; i++) {
-            seats.add(new Seat(0, false));
+            seats.add(new Seat(i, false));
         }
     }
 
