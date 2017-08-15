@@ -18,7 +18,7 @@ public class Row {
         this.rowClass = rowClass;
         this.seatCount = seatCount;
         seats = new ArrayList<>();
-        createSeats(this.seatCount);
+//        createSeats(this.seatCount);
     }
 
     public int getRowClass() {
@@ -33,11 +33,11 @@ public class Row {
         return rowNumber;
     }
 
-    public void createSeats(int seatCount) {
-        for (int i = 0; i <= seatCount; i++) {
-            seats.add(new Seat(false, i));
-        }
-    }
+//    public void createSeats(int seatCount) {
+//        for (int i = 0; i <= seatCount; i++) {
+//            seats.add(new Seat(false, i));
+//        }
+//    }
 
     public ArrayList<Seat> getSeats() {
         return seats;
