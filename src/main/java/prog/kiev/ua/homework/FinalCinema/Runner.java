@@ -21,7 +21,7 @@ public class Runner {
     public static List<Movie> movieDetails() {
         List<Movie> movies = new ArrayList<>();
         movies.add(new Movie("Scream", 1996)
-        .);
+        );
         return movies;
     }
 }
