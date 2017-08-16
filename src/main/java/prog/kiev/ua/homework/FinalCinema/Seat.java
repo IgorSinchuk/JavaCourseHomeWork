@@ -1,5 +1,7 @@
 package prog.kiev.ua.homework.FinalCinema;
 
+import prog.kiev.ua.homework.FinalCinema.Enum.ReservationStatus;
+
 import java.util.ArrayList;
 import java.util.List;
 

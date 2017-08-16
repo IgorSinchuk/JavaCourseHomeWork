@@ -13,7 +13,6 @@ public class Seance {
     private List<String> seanceType = new ArrayList<>();
 
 
-
     public Seance(int rowNumber, int seatNumber) {
         this.rowNumber = rowNumber;
         this.seatNumber = seatNumber;

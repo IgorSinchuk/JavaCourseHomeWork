@@ -1,5 +1,6 @@
 package prog.kiev.ua.homework.FinalCinema;
 
+import prog.kiev.ua.homework.FinalCinema.Enum.SeanceType;
 import prog.kiev.ua.homework.Module6.MovieV2.*;
 
 import java.util.ArrayList;
@@ -11,6 +12,10 @@ import java.util.List;
 public class Runner {
 
     public static void main(String[] args) {
+
+        ArrayList<Row> rows = new ArrayList<>();
+        ArrayList<Seance> seances = new ArrayList<>();
+        ArrayList<Seat> seats = new ArrayList<>();
 
         List<Movie> movieList = new ArrayList<>();
         System.out.println(movieList);
@@ -24,4 +29,6 @@ public class Runner {
         );
         return movies;
     }
+
+
 }

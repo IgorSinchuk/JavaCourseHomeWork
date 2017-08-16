@@ -1,4 +1,4 @@
-package prog.kiev.ua.homework.FinalCinema;
+package prog.kiev.ua.homework.FinalCinema.Enum;
 
 /**
  * Created by igor on 8/15/17.

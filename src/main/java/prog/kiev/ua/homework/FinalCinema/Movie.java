@@ -11,7 +11,7 @@ public class Movie {
     private long releasedDate;
     private List<Genre> genres = new ArrayList<>();
     private List<String> castList = new ArrayList<>();
-    private List<Seance> seanceList = new ArrayList<>();
+    private List<String> seanceList = new ArrayList<>();
 
     public Movie(String name, long releasedDate) {
         this.name = name;
@@ -34,7 +34,7 @@ public class Movie {
         return castList;
     }
 
-    public List<Seance> getSeanceList() {
+    public List<String> getSeanceList() {
         return seanceList;
     }
 
@@ -48,7 +48,7 @@ public class Movie {
         return this;
     }
 
-    public Movie addSeance(Seance seance) {
+    public Movie addSeance(String seance) {
         seanceList.add(seance);
         return this;
     }
