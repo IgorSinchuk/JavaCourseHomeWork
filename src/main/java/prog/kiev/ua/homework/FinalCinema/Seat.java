@@ -1,7 +1,5 @@
 package prog.kiev.ua.homework.FinalCinema;
 
-import prog.kiev.ua.homework.FinalCinema.Enum.ReservationStatus;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +9,6 @@ import java.util.List;
 public class Seat {
     int seatNumber;
     boolean isReserved;
-    private List<ReservationStatus> reservationStatusList = new ArrayList<>();
 
     public Seat(int seatNumber,boolean isReserved) {
         this.seatNumber = seatNumber;

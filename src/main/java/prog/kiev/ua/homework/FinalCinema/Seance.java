@@ -10,7 +10,7 @@ public class Seance {
 
     int rowNumber;
     int seatNumber;
-    private List<String> seanceType = new ArrayList<>();
+    private List<Movie> movies = new ArrayList<>();
 
 
     public Seance(int rowNumber, int seatNumber) {
