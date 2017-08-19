@@ -8,14 +8,19 @@ import java.util.List;
  */
 public class Seance {
 
+    int ticketPrice;
     int rowNumber;
     int seatNumber;
+    String seanceDate;
     private List<Movie> movies = new ArrayList<>();
+    private List<Seance> seanceList = new ArrayList<>();
 
 
-    public Seance(int rowNumber, int seatNumber) {
+    public Seance(int rowNumber, int seatNumber, String seanceDate, int ticketPrice) {
         this.rowNumber = rowNumber;
         this.seatNumber = seatNumber;
+        this.seanceDate = seanceDate;
+        this.ticketPrice = ticketPrice;
     }
 
     public int getRowNumber() {
@@ -34,11 +39,20 @@ public class Seance {
         this.seatNumber = seatNumber;
     }
 
+    public int getTicketPrice() {
+        return ticketPrice;
+    }
+
+    public void setTicketPrice(int ticketPrice) {
+        this.ticketPrice = ticketPrice;
+    }
+
     public List<String> getSeanceType() {
         return getSeanceType();
     }
 
-    public void bookingSystem(int rowNumber, int seatNumber) {
+    public String getSeanceDate() {
+        return seanceDate;
+    }
 
     }
-}

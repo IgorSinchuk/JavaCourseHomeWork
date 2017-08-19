@@ -12,6 +12,7 @@ public class Movie {
     private List<Genre> genres = new ArrayList<>();
     private List<String> castList = new ArrayList<>();
     private List<String> seanceList = new ArrayList<>();
+    private int releaseDate;
 
     public Movie(String name, long releasedDate) {
         this.name = name;
@@ -60,5 +61,9 @@ public class Movie {
                 ", genres=" + genres +
                 ", castList=" + castList +
                 '}';
+    }
+
+    public int getReleaseDate() {
+        return releaseDate;
     }
 }
