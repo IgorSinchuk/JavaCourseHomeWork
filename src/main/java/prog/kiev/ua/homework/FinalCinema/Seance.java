@@ -11,12 +11,12 @@ public class Seance {
     int ticketPrice;
     int rowNumber;
     int seatNumber;
-    String seanceDate;
+    long seanceDate;
     private List<Movie> movies = new ArrayList<>();
     private List<Seance> seanceList = new ArrayList<>();
 
 
-    public Seance(int rowNumber, int seatNumber, String seanceDate, int ticketPrice) {
+    public Seance(int rowNumber, int seatNumber, long seanceDate, int ticketPrice) {
         this.rowNumber = rowNumber;
         this.seatNumber = seatNumber;
         this.seanceDate = seanceDate;
@@ -51,7 +51,7 @@ public class Seance {
         return getSeanceType();
     }
 
-    public String getSeanceDate() {
+    public long getSeanceDate() {
         return seanceDate;
     }
 
