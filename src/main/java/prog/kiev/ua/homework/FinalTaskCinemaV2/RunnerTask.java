@@ -1,21 +1,19 @@
 package prog.kiev.ua.homework.FinalTaskCinemaV2;
 
-import com.sun.tools.internal.xjc.reader.Ring;
-
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by igor on 8/14/17.
  */
-public class Runner {
+public class RunnerTask {
 
     public static void main(String[] args) {
 
         List<Movie> movieList = fillMovie();
         System.out.println(movieList);
-        System.out.println(Runner.releasedMovie(movieList));
-        System.out.println(Runner.movieGenre(movieList));
+        System.out.println(RunnerTask.releasedMovie(movieList));
+        System.out.println(RunnerTask.movieGenre(movieList));
 
     }
 

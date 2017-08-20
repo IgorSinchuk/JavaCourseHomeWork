@@ -7,14 +7,22 @@ import java.util.ArrayList;
  */
 public class Cinema {
 
-
+    String cinemaName;
     private ArrayList<Row> rows;
     private ArrayList<Seance> seances;
 
-    public void createRows(ArrayList<Row> rows) {
-        this.rows.addAll(rows);
+    public Cinema(String cinemaName) {
+        this.cinemaName = cinemaName;
     }
 
+    public String getCinemaName() {
+        return cinemaName;
+    }
+
+    public void createRows(int seatCount, int rowCount) {
+        this.rows.addAll(rows);
+    }
+//
     public void printSeatPlan() {
         System.out.println();
         int maxSeatsInRow = 0;
