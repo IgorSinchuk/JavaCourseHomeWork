@@ -23,6 +23,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return name + "is" + age + " years old";
+        return name + " is " + age + " years old";
     }
 }
