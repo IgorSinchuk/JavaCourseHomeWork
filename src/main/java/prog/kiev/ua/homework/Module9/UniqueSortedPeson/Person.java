@@ -1,4 +1,4 @@
-package prog.kiev.ua.homework.Module9.UniqueSortedPeople;
+package prog.kiev.ua.homework.Module9.UniqueSortedPeson;
 
 /**
  * Created by igorsinchuk on 8/23/17.
@@ -23,6 +23,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return name + "is" + age + " years old";
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }

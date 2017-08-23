@@ -1,4 +1,4 @@
-package prog.kiev.ua.homework.Module9.AgeCategories;
+package prog.kiev.ua.homework.Module9.UniqueSortedPeson;
 
 import java.util.Comparator;
 

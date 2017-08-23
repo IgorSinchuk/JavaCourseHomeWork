@@ -1,4 +1,4 @@
-package prog.kiev.ua.homework.Module9.AgeCategories;
+package prog.kiev.ua.homework.Module9.UniqueSortedPeson;
 
 import java.util.Arrays;
 import java.util.List;
@@ -21,6 +21,6 @@ public class Runner {
 
         Set<Person> uniquePeople = new TreeSet<>(new PersonComparator());
         uniquePeople.addAll(people);
-        System.out.println("Unique persons: " +uniquePeople);
+        System.out.println("Unique persons: " + uniquePeople);
     }
 }

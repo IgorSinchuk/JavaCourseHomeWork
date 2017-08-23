@@ -1,4 +1,4 @@
-package prog.kiev.ua.homework.Module9.AgeCategories;
+package prog.kiev.ua.homework.Module9.AgeCategoriesPerson;
 
 /**
  * Created by igorsinchuk on 8/23/17.
@@ -23,9 +23,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+        return name + "is" + age + " years old";
     }
 }
