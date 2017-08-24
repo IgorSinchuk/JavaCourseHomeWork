@@ -1,20 +1,29 @@
 package prog.kiev.ua.homework.Module10.MovieIO;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * Created by igor on 8/12/17.
  */
-public class Movie {
+public class Movie implements Serializable{
 
     private String name;
-    private long releaseDate;
-    private List<String> castList = new ArrayList<>();
+    private int releaseDate;
+    private List<Cast> castList = new ArrayList<>();
     private List<Genre> genres = new ArrayList<>();
 
 
-    public Movie(String name, long releaseDate) {
+    public Movie(String name, int releaseDate, Cast[] cast, Genre[] genres) {
+        this.name = name;
+        this.releaseDate = releaseDate;
+        this.castList = Arrays.asList(cast);
+        this.genres = Arrays.asList(genres);
+    }
+
+    public Movie(String name, int releaseDate) {
         this.name = name;
         this.releaseDate = releaseDate;
     }
@@ -27,7 +36,7 @@ public class Movie {
         return releaseDate;
     }
 
-    public List<String> getCast() {
+    public List<Cast> getCast() {
         return castList;
     }
 
@@ -35,15 +44,14 @@ public class Movie {
         return genres;
     }
 
-    public Movie addGenres(Genre genre) {
-        genres.add(genre);
-        return this;
+    public void addGenres(Genre genre) {
+        this.genres.add(genre);
     }
 
-    public Movie addCast(String cast) {
-        castList.add(cast);
-        return this;
+    public void addCast(Cast cast) {
+        this.castList.add(cast);
     }
+
 
     @Override
     public String toString() {
