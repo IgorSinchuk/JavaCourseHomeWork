@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by igorsinchuk on 8/23/17.
  */
-public class Movies implements Iterator<Movies>, Serializable {
+public class Movies implements Iterable<Movie>, Serializable {
     public List<Movie> movies;
 
     public Movies() {
