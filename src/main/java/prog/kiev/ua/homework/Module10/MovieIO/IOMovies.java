@@ -7,8 +7,8 @@ import java.io.*;
  */
 public class IOMovies extends Movies {
 
-    private final String textFile = "/Module10/MovieIO/movies.txt";
-    private final String binaryFile = "/Module10/MovieIO/movies_binary.txt";
+    private final String textFile = "/IdeaProjects/JavaCourseHomeWork/Module10/MovieIO/movies.txt";
+    private final String binaryFile = "/IdeaProjects/JavaCourseHomeWork/Module10/MovieIO/movies_binary.txt";
 
     public IOMovies() {
         super();
@@ -51,8 +51,21 @@ public class IOMovies extends Movies {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        } ;
+        }
     }
+    public String readStream() {
+        File inputFile = new File(binaryFile);
+        String movies = null;
+        try (FileInputStream fis = new FileInputStream(inputFile)) {
+            try (ObjectInputStream in = new ObjectInputStream(fis)) {
+                movies = (String)in.readObject();
 
-    public String
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return movies;
+    }
 }
