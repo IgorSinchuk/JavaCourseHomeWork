@@ -7,15 +7,15 @@ import java.io.*;
  */
 public class IOMovies extends Movies {
 
-    private final String textFile = "/IdeaProjects/JavaCourseHomeWork/Module10/MovieIO/movies.txt";
-    private final String binaryFile = "/IdeaProjects/JavaCourseHomeWork/Module10/MovieIO/movies_binary.txt";
+    private final String textFile = "movies.txt";
+    private final String binaryFile = "movies_binary.txt";
 
     public IOMovies() {
         super();
     }
 
     public void writeMovies() throws IOException{
-       try (Writer writer = new FileWriter(textFile)) {
+       try (Writer writer = new BufferedWriter(new FileWriter(textFile))) {
             for (Movie movie : super.movies) {
                 String f = movie.getName() + ";" + movie.getReleaseDate();
                 writer.write(f);
@@ -43,7 +43,7 @@ public class IOMovies extends Movies {
         return movies;
     }
 
-    public void writetStream() throws FileNotFoundException {
+    public void writerStream() throws FileNotFoundException {
         File file = new File(binaryFile);
         try (FileOutputStream output = new FileOutputStream(file)) {
             try (ObjectOutputStream out = new ObjectOutputStream(output)) {
