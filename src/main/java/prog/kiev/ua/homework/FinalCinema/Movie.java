@@ -56,10 +56,10 @@ public class Movie {
     @Override
     public String toString() {
         return "Movie{" +
-                "name = '" + name + '\'' +
-                ", releasedDate = " + releasedDate +
-                ", genres =" + genres +
-                ", castList =" + castList +
+                "\nname = \'" + name + '\'' +
+                ", \nreleasedDate = " + releasedDate +
+                ", \ngenres =" + genres +
+                ", \ncastList =" + castList +
                 '}';
     }
 

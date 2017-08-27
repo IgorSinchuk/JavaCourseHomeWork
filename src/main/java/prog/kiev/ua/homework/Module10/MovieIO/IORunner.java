@@ -5,7 +5,7 @@ import java.io.IOException;
 /**
  * Created by igor on 8/12/17.
  */
-public class Runner {
+public class IORunner {
 
     public static void main(String[] args) throws IOException {
         IOMovies movies = new IOMovies();

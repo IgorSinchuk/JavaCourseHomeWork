@@ -1,5 +1,6 @@
 package prog.kiev.ua.homework.FinalCinema;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,12 +10,10 @@ import java.util.List;
  */
 public class Runner {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         List<Movie> moviesList = fillMovie();
-        List<Seance> seanceList = fillSeance();
         System.out.println(moviesList);
-        System.out.println(seanceList);
         System.out.println(Runner.releasedMovie(moviesList));
         System.out.println(Runner.movieGenre(moviesList));
 
@@ -32,12 +31,6 @@ public class Runner {
         return movies;
     }
 
-    public static List<Seance> fillSeance() {
-        List<Seance> seances = new ArrayList<>();
-        seances.add(new Seance(9, 8, 26, 34));
-
-        return seances;
-    }
     public static List<Movie> movieGenre(List<Movie> movieList) {
         List<Movie> movieGenred = new ArrayList<>();
         for (Movie movie : movieList) {
@@ -76,5 +69,4 @@ public class Runner {
 //        }
 //    }
 
-
-    }
+}
