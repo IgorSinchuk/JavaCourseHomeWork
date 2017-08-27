@@ -56,10 +56,10 @@ public class Movie {
     @Override
     public String toString() {
         return "Movie{" +
-                "name='" + name + '\'' +
-                ", releasedDate=" + releasedDate +
-                ", genres=" + genres +
-                ", castList=" + castList +
+                "name = '" + name + '\'' +
+                ", releasedDate = " + releasedDate +
+                ", genres =" + genres +
+                ", castList =" + castList +
                 '}';
     }
 
