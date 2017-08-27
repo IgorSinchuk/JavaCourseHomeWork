@@ -2,6 +2,7 @@ package prog.kiev.ua.homework.FinalCinema;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.IllegalFormatException;
 import java.util.List;
 
 
@@ -26,7 +27,9 @@ public class Runner {
                 .addCast("Sandra Bullock")
                 .addCast("Don Cheadle")
                 .addCast("Matt Dillon")
-                .addSeance("09.2017"));
+                .addSeance("today"));
+
+
 
         return movies;
     }
@@ -59,14 +62,5 @@ public class Runner {
         return releasedMovies;
     }
 
-//    public static List<Row> rowList(List<Seance> seanceList) {
-//        List<Row> rowList = new ArrayList<>();
-//        for (Seance seance : seanceList) {
-//            for (Seat seat : seance.getRows) {
-//            if (seance.getRowNumber() >= 9 && seance.getRowNumber() <= 1) {
-//                rowList.add(seat);
-//            }
-//        }
-//    }
 
 }
